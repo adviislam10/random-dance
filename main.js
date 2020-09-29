@@ -40,13 +40,13 @@ function keydownHandler(event) {
 
     if (event.code == 'Space') {
         for (let i = 0; i < myArray.length; i++) {
-            myArray.splice(i, 1, Math.randomInt(-40, 40) + 300);
+            myArray[i] += Math.randomInt(-5, 5)
 
         }
 
     } else if (event.code == 'KeyR') {
         for (let i = 0; i < myArray.length; i++) {
-            myArray.splice(i, 1, 300);
+            myArray[i] = 300
         }
     }
 }

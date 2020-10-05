@@ -9,7 +9,7 @@ cnv.height = 600;
 // Global Variables
 let myArray = [];
 
-for(let i = 0; i <= 15; i++) {
+for(let i = 0; i < 15; i++) {
     let n = 300
     myArray.push(n)
 }
